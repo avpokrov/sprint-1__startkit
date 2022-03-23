@@ -79,6 +79,36 @@
   right: 0;
 }
 
+.description {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+
+}
+
+.descriprion__two_colums{  
+  border: 1px solid red;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.descriprion__two_colums_brief{
+  width: 175px;
+  margin: 0;
+  color:#2f80ed;
+  line-height: 1.2;
+  font-size: 18px;
+
+}
+
+.descriprion__two_colums_main-text{  
+  
+}
+.descriprion__two_colums_paragraph{
+  margin: 0;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
