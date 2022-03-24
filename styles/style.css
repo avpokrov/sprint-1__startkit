@@ -86,26 +86,38 @@
 
 }
 
-.descriprion__two_colums{  
+.two_colums{  
   border: 1px solid red;
   display: flex;
   width: 80%;
   justify-content: space-between;
 }
 
-.descriprion__two_colums_brief{
+.two_colums__brief{
   width: 175px;
   margin: 0;
-  color:#2f80ed;
-  line-height: 1.2;
   font-size: 18px;
-
+  line-height: 1.2;
+  color:#2f80ed; 
+  font-weight: 550;
 }
 
-.descriprion__two_colums_main-text{  
+.two_colums__main-text{
+  width: 80%;
+  min-width: 784px;  
   
 }
-.descriprion__two_colums_paragraph{
+.two_colums__paragraph{
+  margin: 0 0 30px;
+  line-height: 34px;
+  font-size: 24px;
+}
+
+.two_colums__span-accent{
+  font-weight: bold;
+}
+
+.two_colums__paragraph:last-child{
   margin: 0;
 }
 
