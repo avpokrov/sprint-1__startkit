@@ -6,4 +6,10 @@
     text-decoration: none;
     font-size: 36px;
     line-height: 51px;
+    transition: opacity .5s;
+  }
+
+  .feinman__link:hover {
+    opacity: .3;
+    transition: opacity .5s;
   }
